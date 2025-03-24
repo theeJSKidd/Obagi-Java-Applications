@@ -1,6 +1,4 @@
-
 import java.util.Scanner;
-
 
 public class UserInput{
 	public static void main(String[] args){
@@ -12,13 +10,14 @@ public class UserInput{
 		System.out.print("Enter your address: ");
 		String address = input.nextLine();
 		
-		System.out.print("Enter your age: ");
+		System.out.print("Enter your Age: ");
 		byte age = input.nextByte();
 		
 		System.out.println();
-		System.out.printf("Hello %s, You are welcome to First Bank%n",name);
-		System.out.printf("You are living in %s%n", address);
-		System.out.printf("You are %d years old ",age);
-		
+		System.out.printf("Hi %s, you are welcome to first bank%n", name);
+		System.out.printf("you are living in %s%n ", address);
+		System.out.printf("you are %d years old", age);
+	
 	}
+	
 }
